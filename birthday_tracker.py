@@ -20,6 +20,7 @@ def load_birthdays(file_path):
         })
     return birthdays
 
+
 # Step 2: Send email
 def send_email(to_email, subject, body, from_email, password):
     try:
